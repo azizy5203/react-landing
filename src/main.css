@@ -2,25 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@font-face{
-    font-family:'Roboto';
-    src:url('./assets/fonts/Roboto-Regular.ttf') ;
-    font-weight: 400;
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+  font-weight: 400;
 }
 
-@font-face{
-    font-family: "Graphik";
-    src: url(./assets/fonts/GraphikBold.otf);
-    font-weight: 700;
+@font-face {
+  font-family: "Graphik";
+  src: url(./assets/fonts/GraphikBold.otf);
+  font-weight: 700;
 }
 
-@font-face{
-    font-family: "Graphik";
-    src: url(./assets/fonts/GraphikRegular.otf);
-    font-weight: 400;
+@font-face {
+  font-family: "Graphik";
+  src: url(./assets/fonts/GraphikRegular.otf);
+  font-weight: 400;
 }
 
-body{
-    font-family: "Graphik","Roboto", sans-serif;
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Graphik", "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.83em;
+}
+
+h6 {
+  font-size: 0.67em;
+}
+
+p {
+  margin: 1em 0;
 }
